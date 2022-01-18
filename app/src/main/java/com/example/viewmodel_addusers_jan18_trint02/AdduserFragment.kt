@@ -31,13 +31,13 @@ class AdduserFragment : Fragment() {
         with(binding) {
             btnAddUser.setOnClickListener {
 
-                var firstName = tilFirstName.editText?.text.toString()
-                var lastName = tilLastName.editText?.text.toString()
-                var newUser = User(firstName, lastName)
+                val firstName = tilFirstName.editText?.text.toString()
+                val lastName = tilLastName.editText?.text.toString()
+                val newUser = User(firstName, lastName)
 
                 viewModel.addUser(newUser)
 
-//                viewModel.user.observe(viewLifecycleOwner, { user->
+//                viewModel.users.observe(viewLifecycleOwner, { user->
 //                    binding.tilFirstName.editText?.setText(user)
 //
 //                })
