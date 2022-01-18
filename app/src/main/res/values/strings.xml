@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">viewmodel_addusers_jan18_trint02</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="add_user">Add User</string>
+    <string name="back">Back</string>
+</resources>
